@@ -1,0 +1,27 @@
+{
+  "name": "redis-node-tutorial",
+  "version": "1.0.0",
+  "description": "A step by step guide to setup caching with Redis on a NodeJS Web Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdamin/redis-node-tutorial.git"
+  },
+  "author": "Abdullah Amin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdamin/redis-node-tutorial/issues"
+  },
+  "homepage": "https://github.com/abdamin/redis-node-tutorial#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
